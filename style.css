@@ -1,0 +1,270 @@
+
+.popins {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+.header{
+    background-image: linear-gradient(0.00deg, rgb(18, 18, 18),rgba(18, 18, 18, 0) 100%),url(./images/donation1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1200px;
+height: 600px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+}
+.header-content h3{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 55px;
+font-weight: 700;
+text-align: center;
+margin: 15px auto;
+}
+.header-content p{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+}
+.btn{
+    border-radius: 8px;
+    background:  rgb(255, 89, 89);;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    border: none;
+    width: 200px;
+}
+.btn-align{
+    text-align: center;
+}
+.donate-container{
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 1200px;
+    height: 400px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;   
+}
+.donation-content h4  {
+    color: rgb(18, 18, 18);
+font-family: Inter;
+font-size: 45px;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: 0px;
+text-align: center;
+}
+.donation-content p{
+    color: rgb(112, 112, 112);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: center;
+}
+ span{
+    background: rgb(255, 255, 255);
+    border: 1px solid lightgrey;
+    font-size: 18px;
+   
+}
+.align{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.span1{
+    box-sizing: border-box;
+border: 2px solid rgb(255, 89, 89);
+border-radius: 5px;
+font-size: 28px;
+background: rgb(255, 238, 238);
+}
+.hr{
+    border: 1px none rgb(218, 218, 218);
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+}
+.cards h4{
+    color: rgb(18, 18, 18);
+font-family: Inter;
+font-size: 45px;
+font-weight: 700;
+letter-spacing: 0px;
+text-align: center;
+}
+.cards p{
+    color: rgb(112, 112, 112);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 0px;
+text-align: center;
+}
+.card1 h5{
+    color: rgb(18, 18, 18);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.card1, .card2, .card3 p{
+    color: rgb(112, 112, 112);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.card1{
+    border-radius: 5px;
+
+background: rgba(79, 157, 166, 0.1);
+}
+.card2{
+    border-radius: 5px;
+
+background: rgba(255, 89, 89, 0.1);
+}
+.card3{
+    border-radius: 5px;
+
+    background: rgb(255, 244, 214);
+}
+.footer{
+background: rgb(11, 13, 23);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+}
+.footer h4{
+    color: rgb(255, 89, 89);
+    font-family: Lobster;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.footer p{
+    color: rgb(217, 219, 225);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 5px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.info{
+    width: 1200px;
+height: 530px;
+margin: 0 auto;
+margin-top: 25px;
+}
+.text{
+    width: 493px;
+height: 474px;
+margin:20px;
+
+}
+.info{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+height: 150px;
+border: 2px solid red;
+margin: 0 auto;
+background: rgb(255, 244, 214);
+}
+.forms input{
+    margin-bottom: 20px;
+}
+.forms h4{
+    color: rgb(18, 18, 18);
+font-family: Inter;
+font-size: 35px;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: 0px;
+text-align: center;
+}
+.forms p{
+    color: rgb(112, 112, 112);
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.text h4{
+    color: rgb(18, 18, 18);
+font-family: Inter;
+font-size: 35px;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: 0px;
+text-align: left;
+}
+.text p{
+    color: rgb(112, 112, 112);
+font-family: Poppins;
+font-size: 10px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+}
+.another-info{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+.another-info{
+    width: 1200px;
+height: 530px;
+margin: 0 auto;
+margin-top: 25px;
+}
+.another-text{
+    width: 493px;
+height: 474px;
+margin:20px;}
